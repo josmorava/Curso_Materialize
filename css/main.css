@@ -18,7 +18,7 @@ header nav{
     background-color: white;
     box-shadow: none;
 }
-nav .brand-logo{
+nav a .brand-logo{
     height: 100px;
     left: 15%;
 }
@@ -41,4 +41,42 @@ header nav ul a{
 }
 
 /* #########  / HEADER######### */
+
+/* ######### MAIN ######### */
+div .input-field.input-container{
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+div .input-field > #search{
+    margin-top: 25px;
+
+}
+div .input-container i{
+    margin-top: 45px;
+    margin-right: 15px;
+}
+footer.page-footer{
+    height: 80px;
+    background-color: gray;
+    bottom: 0;
+}
+/* #########  / MAIN ######### */
+
+/* #########  MAIN > post.html ######### */
+.post-pic{
+    width: 100%;
+    height: 400px;
+    /* agregar una imagen ramdom con sus dimensiones */
+    background-image: url('https://picsum.photos/1000/400');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* #########/ MAIN > post.html ######### */
+
+
 
