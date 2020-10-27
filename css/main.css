@@ -18,7 +18,7 @@ header nav{
     background-color: white;
     box-shadow: none;
 }
-nav a .brand-logo{
+header nav .brand-logo{
     height: 100px;
     left: 15%;
 }
@@ -66,6 +66,7 @@ footer.page-footer{
 /* #########  / MAIN ######### */
 
 /* #########  MAIN > post.html ######### */
+
 .post-pic{
     width: 100%;
     height: 400px;
@@ -80,3 +81,17 @@ footer.page-footer{
 
 
 
+
+/* #########  ---- > registro.html ######### */
+    /* ------ HEADER > post.html ------ */
+.registro-header{
+    height: 400px;
+}
+    /*------ / HEADER > post.html ------ */
+
+    /* ------ MAIN > post.html ------ */
+.registro-titulo{
+    margin-top: 80px;
+}
+    /* ------ / MAIN > post.html ------ */
+/* #########/ ---- > registro.html ######### */
